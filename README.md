@@ -21,6 +21,12 @@ This repository is organized into numbered directories, each focusing on a speci
 - **013_arrays**: Working with fixed-size arrays.
 - **014_slice_literals**: Introduction to slices and slice literals.
 - **015_length_and_capacity_of_slice**: Understanding slice length and capacity.
+- **016_for_range_over_slices**: Iterating over slices using the `range` keyword.
+- **017_map**: Working with key-value pairs using maps.
+- **018_read_value_ok**: Checking for existence of keys in maps using the "comma ok" idiom.
+- **019_functions**: Defining and using functions.
+- **020_function_named_return_values**: Using named return values in functions.
+- **021_variadic_functions**: Functions that accept a variable number of arguments.
 
 ## Getting Started
 
