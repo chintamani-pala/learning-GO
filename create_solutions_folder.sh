@@ -4,7 +4,6 @@ for dir in "${all_folders[@]}"; do
     if [ -d "$dir/practice/solutions" ]; then
         echo "solutions folder already exists in $dir/practice"
         rm -rf "$dir/practice/solutions"
-        continue
     fi
     if [ ! -d "$dir/practice" ]; then
         mkdir "$dir/practice"
