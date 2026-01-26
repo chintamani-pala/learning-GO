@@ -8,7 +8,14 @@
 ### 1. Declare a boolean variable `isGoFun` and assign it `true`. Print its value.
 
 ```go
-// Your core logic here
+package main
+
+import "fmt"
+
+func main() {
+    var isGoFun bool = true
+    fmt.Println(isGoFun)
+}
 ```
 
 ---
@@ -16,7 +23,14 @@
 ### 2. Write an expression that checks if 10 is greater than 5 and store the result in a boolean.
 
 ```go
-// Your core logic here
+package main
+
+import "fmt"
+
+func main() {
+    var isGreater bool = 10 > 5
+    fmt.Println(isGreater)  
+}
 ```
 
 ---
@@ -24,7 +38,15 @@
 ### 3. Use the logical AND (`&&`) operator to check if two conditions are both true.
 
 ```go
-// Your core logic here
+package main
+
+import "fmt"
+
+func main() {
+    var isGreater bool = 10 > 5
+    var isLess bool = 10 < 5
+    fmt.Println(isGreater && isLess)
+}
 ```
 
 ---
@@ -32,7 +54,14 @@
 ### 4. Use the logical NOT (`!`) operator to invert a boolean value.
 
 ```go
-// Your core logic here
+package main
+
+import "fmt"
+
+func main() {
+    var isGreater bool = 10 > 5
+    fmt.Println(!isGreater)
+}
 ```
 
 ---
@@ -40,7 +69,13 @@
 ### 5. Create a program that prints the result of `(5 > 3) || (10 < 2)`. What is the expected output?
 
 ```go
-// Your core logic here
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println((5 > 3) || (10 < 2)) // true
+}
 ```
 
 ---
