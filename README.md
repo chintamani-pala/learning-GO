@@ -27,6 +27,15 @@ This repository is organized into numbered directories, each focusing on a speci
 - **[019_functions](./019_functions)**: Defining and using functions.
 - **[020_function_named_return_values](./020_function_named_return_values)**: Using named return values in functions.
 - **[021_variadic_functions](./021_variadic_functions)**: Functions that accept a variable number of arguments.
+- **[022_error_return_pattern](./022_error_return_pattern)**: Handling errors using the multiple return value pattern.
+- **[023_defer_basic](./023_defer_basic)**: Using `defer` to ensure function calls are performed later.
+- **[024_pointers](./024_pointers)**: Introduction to pointers.
+- **[025_structs](./025_structs)**: Defining and using structs.
+- **[026_methods_val_receiver](./026_methods_val_receiver)**: Methods with value receivers.
+- **[027_methods_pointer_receiver](./027_methods_pointer_receiver)**: Methods with pointer receivers.
+- **[028_closers](./028_closers)**: Understanding closures.
+- **[029_interfaces](./029_interfaces)**: Implementing and using interfaces.
+- **[030_enums](./030_enums)**: Simulating enums using constants and iota.
 
 ## Getting Started
 
